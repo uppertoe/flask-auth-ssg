@@ -99,4 +99,4 @@ def serve_static(filename):
             abort(404)
 
 if __name__ == '__main__':
-    app.run(port=5005)  # Use a proper SSL certificate in production
+    app.run(port=5005)
